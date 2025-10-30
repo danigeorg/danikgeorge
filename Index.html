@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dani George | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-[#FAFAF9] text-[#1E293B] font-sans">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="font-bold text-xl">Dani George</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#home" class="hover:text-[#F97316]">Home</a>
+        <a href="#about" class="hover:text-[#F97316]">About</a>
+        <a href="#skills" class="hover:text-[#F97316]">Skills</a>
+        <a href="#projects" class="hover:text-[#F97316]">Projects</a>
+        <a href="#contact" class="hover:text-[#F97316]">Contact</a>
+      </nav>
+      <div class="flex space-x-4">
+        <a href="https://github.com/danigeorg/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" class="w-5 h-5" alt="GitHub" /></a>
+        <a href="https://linkedin.com/in/danikgeorge/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" class="w-5 h-5" alt="LinkedIn" /></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20">
+    <img src="Images/dani 1@2x.png" alt="Profile" class="rounded-full mb-4 shadow-md h-[25%] w-[25%]"  />
+    <h2 class="text-3xl md:text-4xl font-bold mb-2">Dani George</h2>
+    <h3 class="text-lg md:text-xl text-gray-600 mb-6"><span id="typed"></span></h3>
+    <div class="flex space-x-4">
+      <a href="#projects" class="bg-[#F97316] text-white px-5 py-2 rounded-lg hover:opacity-90">View Projects</a>
+      <a href="cv.pdf" class="border border-[#F97316] text-[#F97316] px-5 py-2 rounded-lg hover:bg-[#F97316] hover:text-white">Download CV</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto py-16 px-4 grid md:grid-cols-2 gap-10">
+    <div class="grid grid-cols-2 gap-4">
+      <div class="p-4 bg-white shadow hover:scale-105 transition rounded-xl text-center">Frontend</div>
+      <div class="p-4 bg-white shadow hover:scale-105 transition rounded-xl text-center">Business</div>
+      <div class="p-4 bg-white shadow hover:scale-105 transition rounded-xl text-center">Design</div>
+      <div class="p-4 bg-white shadow hover:scale-105 transition rounded-xl text-center">Sales</div>
+    </div>
+    <div>
+      <p class="mb-4">Hi, I’m Dani George — a passionate web developer bridging technology and business with clean code and creativity. I enjoy turning ideas into efficient digital experiences.</p>
+      <div class="flex space-x-4">
+        <a href="https://github.com/danigeorg/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" class="w-5 h-5" /></a>
+        <a href="https://linkedin.com/in/danikgeorge/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" class="w-5 h-5" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-gray-100 py-16 px-4 text-center">
+    <h2 class="text-2xl font-bold mb-8">Skills</h2>
+    <div class="flex flex-wrap justify-center gap-3">
+      <span class="bg-white shadow px-4 py-2 rounded-lg">C++</span>
+      <span class="bg-white shadow px-4 py-2 rounded-lg">HTML5</span>
+      <span class="bg-white shadow px-4 py-2 rounded-lg">CSS3</span>
+      <span class="bg-white shadow px-4 py-2 rounded-lg">JavaScript</span>
+      <span class="bg-white shadow px-4 py-2 rounded-lg">Bootstrap</span>
+      <span class="bg-white shadow px-4 py-2 rounded-lg">Canva</span>
+      <span class="bg-white shadow px-4 py-2 rounded-lg">Python</span>
+      <span class="bg-white shadow px-4 py-2 rounded-lg">MySQL</span>
+      <span class="bg-white shadow px-4 py-2 rounded-lg">Github</span>
+      <span class="bg-white shadow px-4 py-2 rounded-lg">Figma</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-4 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6 text-center">Projects</h2>
+    <div class="flex overflow-x-auto space-x-4 pb-4">
+      <div class="min-w-[250px] bg-white shadow rounded-xl p-4">
+        <img src="Images/saathi.jpeg" alt="Project 1" class="rounded-b-md mb-3 " />
+        <h3 class="font-semibold mb-1">Elderly Care Agentic AI</h3>
+        <p class="text-sm text-gray-600 mb-2">AI-powered assistant for elderly healthcare and reminders</p>
+        <div class="flex flex-wrap gap-2 mb-3">
+          <span class="text-xs bg-gray-200 px-2 py-1 rounded">JavaScript</span>
+          <span class="text-xs bg-gray-200 px-2 py-1 rounded">Python</span>
+        </div>
+        <a href="" class="bg-[#F97316] text-white text-sm px-3 py-1 rounded hover:opacity-90">View Project</a>
+      </div>
+      <div class="min-w-[250px] bg-white shadow rounded-xl p-4">
+        <img src="Images/classic.png" alt="Project 2" class="rounded-lg mb-3" />
+        <h3 class="font-semibold mb-1">Classic Tailors</h3>
+        <p class="text-sm text-gray-600 mb-2">A responsive website to bring traditional tailoring into the digital age.</p>
+        <div class="flex flex-wrap gap-2 mb-3">
+          <span class="text-xs bg-gray-200 px-2 py-1 rounded">HTML</span>
+          <span class="text-xs bg-gray-200 px-2 py-1 rounded">CSS</span>
+          <span class="text-xs bg-gray-200 px-2 py-1 rounded">Bootstrap</span>
+
+        </div>
+        <a href="#" class="bg-[#F97316] text-white text-sm px-3 py-1 rounded hover:opacity-90">View Project</a>
+      </div>
+      <!-- <div class="min-w-[250px] bg-white shadow rounded-xl p-4">
+        <img src="Images/saathi.jpeg" alt="Project 3" class="rounded-lg mb-3" />
+        <h3 class="font-semibold mb-1">Classic3</h3>
+        <p class="text-sm text-gray-600 mb-2">Business site concept with CRM design.</p>
+        <div class="flex flex-wrap gap-2 mb-3">
+          <span class="text-xs bg-gray-200 px-2 py-1 rounded">JS</span>
+          <span class="text-xs bg-gray-200 px-2 py-1 rounded">Tailwind</span>
+        </div>
+        <a href="#" class="bg-[#F97316] text-white text-sm px-3 py-1 rounded hover:opacity-90">View Project</a>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="bg-gray-100 py-16 px-4 text-center">
+    <h2 class="text-2xl font-bold mb-8">Gallery</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+      <img src="Images/Atos.jpeg" class="rounded-lg hover:scale-105 transition" />
+      <img src="Images/WC-ID-33-31 Dani George_page-0001.jpg" class="rounded-lg hover:scale-105 transition" />
+      <img src="https://via.placeholder.com/300" class="rounded-lg hover:scale-105 transition" />
+      <img src="https://via.placeholder.com/300" class="rounded-lg hover:scale-105 transition" />
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-3xl mx-auto py-16 px-4 text-center">
+    <h2 class="text-2xl font-bold mb-6">Contact</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Name" class="w-full border rounded-lg p-3" required />
+      <input type="email" placeholder="Email" class="w-full border rounded-lg p-3" required />
+      <textarea placeholder="Message" class="w-full border rounded-lg p-3 h-32" required></textarea>
+      <button class="bg-[#F97316] text-white px-6 py-2 rounded-lg hover:opacity-90">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#1E293B] text-white text-center py-6">
+    <p>© 2025 Dani George</p>
+    <div class="flex justify-center space-x-4 mt-2">
+      <a href="#home" class="hover:underline">Home</a>
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#projects" class="hover:underline">Projects</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </div>
+    <div class="flex justify-center space-x-4 mt-3">
+      <a href="https://github.com/danigeorg/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" class="w-5 h-5 invert" /></a>
+      <a href="https://linkedin.com/in/danikgeorge/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" class="w-5 h-5 invert" /></a>
+    </div>
+  </footer>
+
+  <script>
+    var typed = new Typed('#typed', {
+      strings: ['Web Developer', 'Bridging Technology & Business', 'Client Engagement & Sales'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
+  </script>
+</body>
+</html>
